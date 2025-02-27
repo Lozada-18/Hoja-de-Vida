@@ -1,0 +1,72 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00c6e9;
+}
+
+/* Estilos del banner */
+.banner {
+    background-color: #00c6e9;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    text-align: center;
+}
+
+/* Contenedor de la imagen y texto */
+.perfil {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    gap: 20px;
+}
+
+/* Estilos de la imagen */
+.perfil img {
+    width: 150px; /* Tamaño de la foto */
+    height: 150px;
+    border-radius: 40%;
+    border: 3px solid white;
+}
+
+/* Estilos del menú */
+.menu {
+    background-color: #dbdada;
+    padding: 10px;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+/* Estilos de las secciones */
+.section {
+    background: white;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos del pie de página */
+footer {
+    background-color: #00c6e9;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
